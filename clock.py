@@ -7,7 +7,7 @@ root = Tk()
 root.title("clock")
 
 def time():
-    string = strftime('%H:%M:%S %p')
+    string = strftime('%H:%M:%S %p')     #if you want to convert this clock in 12 hours('%i:%M:%S %p')
     label.config(text = string)
     label.after(1000, time)
 
